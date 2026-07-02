@@ -4,11 +4,6 @@
  */
 import java.util.Scanner;
  
-// ============================================================
-// CLASS: Main (Program Utama)
-// Konsep: Array, Seleksi, Perulangan, IO Sederhana,
-//         Error Handling
-// ============================================================
 public class Main {
  
     // ARRAY - simpan daftar kendaraan (max 20)
@@ -83,7 +78,7 @@ public class Main {
     static void tampilkanMenu() {
         System.out.println("\n==========================================");
         System.out.println("             MENU UTAMA                  ");
-        System.out.println("==========================================");
+        
         System.out.println("  1. Lihat Semua Kendaraan");
         System.out.println("  2. Sewa Kendaraan");
         System.out.println("  3. Kembalikan Kendaraan");
