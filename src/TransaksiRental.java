@@ -47,7 +47,7 @@ public class TransaksiRental extends Kendaraan {
  
     // OVERRIDE hitungBiaya() - POLYMORPHISM
     // Motor (tipe "Motor") diskon 10% kalau sewa > 3 hari
-    // Mobil kena biaya tambahan driver Rp 100.000/hari
+    // Mobil kena biaya tambahan driver Rp 50.000/hari
     @Override
     public double hitungBiaya(int hari) {
         double total = getHargaPerHari() * hari;
@@ -56,7 +56,7 @@ public class TransaksiRental extends Kendaraan {
             System.out.println("  [Info] Motor sewa > 3 hari, dapat diskon 10%!");
             total = total * 0.9;
         } else if (getTipe().equalsIgnoreCase("Mobil")) {
-            double biayaDriver = 100000 * hari;
+            double biayaDriver = 50000 * hari;
             System.out.println("  [Info] Mobil kena biaya driver: +Rp " +
                                String.format("%,.0f", biayaDriver));
             total += biayaDriver;
