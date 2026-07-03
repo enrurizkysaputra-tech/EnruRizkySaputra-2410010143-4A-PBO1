@@ -77,5 +77,4 @@ Main             → Program Utama
 
 ## Video Penjelasan
 
-\[Link YouTube: ISI LINK VIDEO KAMU]
-
+[Link YouTube](https://youtu.be/SVwTJasFTpI)
